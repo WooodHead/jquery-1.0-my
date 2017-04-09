@@ -1,0 +1,1 @@
+cmpOK( $("div").length, "==", 2, "Get Number of Elements Found" );
