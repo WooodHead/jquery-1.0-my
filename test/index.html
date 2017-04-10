@@ -7,8 +7,10 @@
         $(document).ready(function() {
             // runTests(['tests/1-jQuery.js', 'tests/2-length.js', 'tests/3-size.js', 'tests/4-get.js', 'tests/5-get.js', 'tests/6-each.js', 'tests/7-attr.js', 'tests/8-attr.js', 'tests/9-not.js', 'tests/10-jQuery.find.js', 'tests/11-html.js', 'tests/12-show.js', 'tests/13-addClass.js', 'tests/14-removeClass.js']);
             // runTests(['tests/1-jQuery.js', 'tests/2-length.js']);
-            var s = $("div").length;
+            var div = $("div");
+            var s=div.length;
             console.log(s);
+            console.log(div);
 
         });
     </script>
